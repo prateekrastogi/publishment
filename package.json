@@ -11,7 +11,7 @@
     "dev": "gatsby develop",
     "lint": "eslint src/**/**/*.tsx",
     "lint:fix": "eslint --fix src/**/*/*.tsx",
-    "start": "npm run dev",
+    "start": "gatsby serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
