@@ -49,7 +49,7 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: '"Publishment"',
+  title: 'Publishment',
   description: 'The Publishing Establishment',
   coverImage: 'img/blog-cover.jpg',
   logo: 'img/ghost-logo.png',
