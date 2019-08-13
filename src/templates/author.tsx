@@ -81,7 +81,7 @@ interface AuthorTemplateProps {
   data: {
     logo: {
       childImageSharp: {
-        fluid: any;
+        fluid: unknown;
       };
     };
     allMarkdownRemark: {
@@ -99,13 +99,13 @@ interface AuthorTemplateProps {
       // eslint-disable-next-line @typescript-eslint/camelcase
       profile_image?: {
         childImageSharp: {
-          fluid: any;
+          fluid: unknown;
         };
       };
       bio?: string;
       avatar: {
         childImageSharp: {
-          fluid: any;
+          fluid: unknown;
         };
       };
     };

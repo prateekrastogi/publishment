@@ -550,13 +550,13 @@ const renderAst = new RehypeReact({
   components: {},
 }).Compiler;
 
-const Ast = ({ ast, ...props }: any) => {
+const Ast = ({ ast, ...props }: unknown) => {
   ast.properties = props;
   return renderAst(ast);
 };
 
 export interface PostContentProps {
-  htmlAst: any;
+  htmlAst: unknown;
 }
 
 const PostContent: React.FC<PostContentProps> = ({ htmlAst }) => {

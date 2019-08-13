@@ -124,12 +124,12 @@ interface PageTemplateProps {
   data: {
     logo: {
       childImageSharp: {
-        fixed: any;
+        fixed: unknown;
       };
     };
     markdownRemark: {
       html: string;
-      htmlAst: any;
+      htmlAst: unknown;
       excerpt: string;
       timeToRead: string;
       frontmatter: {
@@ -138,7 +138,7 @@ interface PageTemplateProps {
         userDate: string;
         image: {
           childImageSharp: {
-            fluid: any;
+            fluid: unknown;
           };
         };
         tags: string[];
@@ -185,7 +185,7 @@ export interface PageContext {
   frontmatter: {
     image: {
       childImageSharp: {
-        fluid: any;
+        fluid: unknown;
       };
     };
     title: string;

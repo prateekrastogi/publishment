@@ -164,7 +164,7 @@ export interface ReadNextProps {
 export interface ReadNextQuery {
   header: {
     childImageSharp: {
-      fluid: any;
+      fluid: unknown;
     };
   };
 }

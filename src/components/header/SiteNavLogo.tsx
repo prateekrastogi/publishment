@@ -29,7 +29,7 @@ const SiteNavLogoStyles = css`
 interface SiteNavLogoProps {
   logo?: {
     childImageSharp: {
-      fixed: any;
+      fixed: unknown;
     };
   };
 }

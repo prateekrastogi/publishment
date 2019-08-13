@@ -74,12 +74,12 @@ export interface IndexProps {
   data: {
     logo: {
       childImageSharp: {
-        fixed: any;
+        fixed: unknown;
       };
     };
     header: {
       childImageSharp: {
-        fluid: any;
+        fluid: unknown;
       };
     };
     allMarkdownRemark: {

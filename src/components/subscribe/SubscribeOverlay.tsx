@@ -149,7 +149,7 @@ interface SubscribeState {
   isOpen: boolean;
 }
 
-class SubscribeModal extends React.Component<any, SubscribeState> {
+class SubscribeModal extends React.Component<unknown, SubscribeState> {
   state = { isOpen: false };
 
   componentWillUnmount() {

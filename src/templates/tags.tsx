@@ -36,7 +36,7 @@ interface TagTemplateProps {
           description: string;
           image?: {
             childImageSharp: {
-              fluid: any;
+              fluid: unknown;
             };
           };
         };

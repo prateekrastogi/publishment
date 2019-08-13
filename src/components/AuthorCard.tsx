@@ -34,7 +34,7 @@ const AuthorCardContent = styled.section`
 `;
 
 export interface AuthorCardProps {
-  author: any;
+  author: unknown;
 }
 
 const AuthorCard: React.FC<AuthorCardProps> = ({ author }) => {

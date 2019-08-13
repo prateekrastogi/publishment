@@ -14,7 +14,7 @@ const SubscribeOverlayLogo = styled.img`
 interface SiteNavLogoProps {
   logo?: {
     childImageSharp: {
-      fixed: any;
+      fixed: unknown;
     };
   };
 }
