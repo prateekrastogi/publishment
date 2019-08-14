@@ -8,16 +8,6 @@ tags:
   - Source
 ---
 
-Clone this repo.
+Focus on headlines for correlated cross-occurrences.
 
-```
-git clone https://github.com/prateekrastogi/publishment.git
-```
-
-Remove .git folder and setup a new one.
-
-```
-rm -rf .git && git init
-```
-
-Now push to whatever repo you want!
+**Headlines containing singular "", '', :, or ; might be headliner's.**
