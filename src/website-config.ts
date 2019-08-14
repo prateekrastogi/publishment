@@ -52,7 +52,7 @@ const config: WebsiteConfig = {
   title: 'Publishment',
   description: 'The Publishing Establishment',
   coverImage: 'img/blog-cover.jpg',
-  logo: 'img/ghost-logo.png',
+  logo: 'img/logo.png',
   lang: 'en',
   siteUrl: 'https://publishment.netlify.com',
   twitter: 'https://twitter.com/technology',
