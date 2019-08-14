@@ -76,7 +76,12 @@ const Footer: React.FC = () => {
             </Link>
           )}
         </section>
-        <SiteFooterNav />
+        <SiteFooterNav>
+
+          <a href="https://github.com/prateekrastogi/publishment" target="_blank" rel="noopener noreferrer">
+            Source Code
+          </a>
+        </SiteFooterNav>
       </div>
     </footer>
   );
