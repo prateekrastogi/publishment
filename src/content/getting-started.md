@@ -10,4 +10,4 @@ draft: false
 
 Scan headlines for patterns of correlated cross-occurrences.
 
-**Headlines containing singular quotation marks (e.g."") or colons (e.g. ;) might be headliners.**
+**Headlines containing singular quotation marks (e.g."") or colons<br /> (e.g. ;) might be headliners.**
