@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import * as React from 'react';
 import { css } from '@emotion/core';
 import Helmet from 'react-helmet';
@@ -138,15 +138,17 @@ const IndexPage: React.FC<IndexProps> = props => {
           <div css={inner}>
             <SiteHeaderContent>
               <SiteTitle>
-                {props.data.logo ? (
-                  <img
-                    style={{ maxHeight: '45px' }}
-                    src={props.data.logo.childImageSharp.fixed.src}
-                    alt={config.title}
-                  />
-                ) : (
-                  config.title
-                )}
+                <Link to="/">
+                  {props.data.logo ? (
+                    <img
+                      style={{ maxHeight: '45px' }}
+                      src={props.data.logo.childImageSharp.fixed.src}
+                      alt={config.title}
+                    />
+                  ) : (
+                    config.title
+                  )}
+                </Link>
               </SiteTitle>
               <SiteDescription>{config.description}</SiteDescription>
             </SiteHeaderContent>
