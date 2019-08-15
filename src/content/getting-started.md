@@ -8,6 +8,6 @@ tags: ['Basics']
 draft: false
 ---
 
-Scan headlines for patterns of correlated cross-occurrences.
+Scan headlines for the patterns of correlated cross-occurrences.
 
 **Headlines containing singular quotation marks `(e.g."")` or colons `(e.g.;)` might be headliners.**
