@@ -90,7 +90,7 @@ const SocialLinks = styled.div`
   display: flex;
   align-items: center;
   a:last-of-type {
-    padding-right: 20px;
+    padding-right: 0px;
   }
 `;
 
@@ -146,7 +146,7 @@ class SiteNav extends React.Component<SiteNavProps> {
               <a
                 css={SocialLink}
                 href={config.twitter}
-                title="Twitter"
+                title="U.S. Edition"
                 target="_blank"
                 rel="noopener noreferrer"
               >
